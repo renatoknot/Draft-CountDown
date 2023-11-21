@@ -1,5 +1,5 @@
-// Definir a data desejada: 22 de Novembro de 2023 às 16 horas
-const targetDate = new Date(2023, 10, 22, 16, 0, 0);
+// Definir a data desejada: 25 de Novembro de 2023 às 00 horas
+const targetDate = new Date(2023, 10, 25, 0, 0, 0);
 const countToDate = targetDate.getTime();
 let previousTimeBetweenDates;
 setInterval(() => {

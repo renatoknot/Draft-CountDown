@@ -1,14 +1,18 @@
-*,
+/* *,
 *::after,
 *::before {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2.25rem;
-}
+} */
 
 body {
   background-color: #f2f1ed;
   color: #000;
+}
+
+.flip-countdown {
+  max-width: 500px;
 }
 
 .flip-card {
@@ -74,13 +78,20 @@ body {
   }
 }
 
-.container {
+.flip-countdown .container {
   display: flex;
-  gap: 0.5em;
+  gap: 2em;
   justify-content: center;
 }
 
-.container-segment {
+.flip-countdown .container *,
+.flip-countdown .container *::after,
+.flip-countdown .container *::before {
+  box-sizing: border-box;
+  font-size: 4vw;
+}
+
+.flip-countdown .container .container-segment {
   display: flex;
   flex-direction: column;
   gap: 0.1em;
