@@ -1,18 +1,5 @@
-/* *,
-*::after,
-*::before {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.25rem;
-} */
-
-body {
-  background-color: #f2f1ed;
-  color: #000;
-}
-
 .flip-countdown {
-  max-width: 500px;
+  color: #000;
 }
 
 .flip-card {
